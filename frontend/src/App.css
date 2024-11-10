@@ -1,5 +1,5 @@
 .main-container {
-  /* overflow: hidden; */
+  overflow: scroll;
   /* border-radius: 1rem; */
   position: absolute;
   /* box-shadow: 0px 0px 5px 5px rgba(182, 182, 182, 0.623); */
@@ -16,22 +16,29 @@
   border: 1px solid rgb(255, 255, 255);
   min-width: 50rem;
   max-width: 50rem;
-  height: 50rem;
+  height: fit-content;
+  max-height: 100%;
   font-family: "Courier New", Courier, monospace;
-  font-size: 95%;
+  font-size: 85%;
 }
 .container {
+  /* position: absolute; */
+  /* top: 5rem; */
+  /* left: 0; */
+  margin-top: 4rem;
+  height: fit-content;
+  max-height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   /* border: 1px solid rgb(14, 14, 14); */
   width: max-content;
-  max-width: 100%;
+  max-width: 90%;
 }
 .navigation {
   display: flex;
   position: absolute;
-  top: 10px;
+  top: 1rem;
   gap: 2rem;
 }
 .link {
